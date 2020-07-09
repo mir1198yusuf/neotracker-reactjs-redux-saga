@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/neotracker-reactjs-redux-saga/static/css/main.f6d84dcc.chunk.css",
+    "main.js": "/neotracker-reactjs-redux-saga/static/js/main.98567444.chunk.js",
+    "main.js.map": "/neotracker-reactjs-redux-saga/static/js/main.98567444.chunk.js.map",
+    "runtime-main.js": "/neotracker-reactjs-redux-saga/static/js/runtime-main.5e4c5a70.js",
+    "runtime-main.js.map": "/neotracker-reactjs-redux-saga/static/js/runtime-main.5e4c5a70.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/neotracker-reactjs-redux-saga/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.515cf6d7.chunk.js": "/neotracker-reactjs-redux-saga/static/js/2.515cf6d7.chunk.js",
+    "static/js/2.515cf6d7.chunk.js.map": "/neotracker-reactjs-redux-saga/static/js/2.515cf6d7.chunk.js.map",
+    "index.html": "/neotracker-reactjs-redux-saga/index.html",
+    "precache-manifest.88f8a8b6094c67a46b4f6784cce7c977.js": "/neotracker-reactjs-redux-saga/precache-manifest.88f8a8b6094c67a46b4f6784cce7c977.js",
+    "service-worker.js": "/neotracker-reactjs-redux-saga/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/neotracker-reactjs-redux-saga/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.f6d84dcc.chunk.css.map": "/neotracker-reactjs-redux-saga/static/css/main.f6d84dcc.chunk.css.map",
+    "static/js/2.515cf6d7.chunk.js.LICENSE.txt": "/neotracker-reactjs-redux-saga/static/js/2.515cf6d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e4c5a70.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.515cf6d7.chunk.js",
+    "static/css/main.f6d84dcc.chunk.css",
+    "static/js/main.98567444.chunk.js"
+  ]
+}
