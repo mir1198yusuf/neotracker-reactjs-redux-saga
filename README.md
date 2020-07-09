@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Near Earth Objects Tracker - built in React.js Redux-Saga - Using NASA NeoWs API
 
-## Available Scripts
+*I created this simple application while learning redux for state management; redux-saga for side-effects in React.js*
 
-In the project directory, you can run:
+*I was comfortable in React.js but needed practice in Redux and Redux-Saga, like how to make Async calls. Being interested in Space stuff, I decided to use NASA public apis and built a self-project for demo/learning/fun purpose.*
 
-### `npm start`
+## Brief description of project:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- This application is used to list the Near Earth Objects (NEOs) - also called asteroids which will be having their closest approach to Earth on selected date, while they are in revolution around the Sun. Other useful details like closest approach date time, Earth miss distance, estimated diameter, is hazardous, etc are also displayed.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## NASA NeoWs API :
 
-### `npm test`
+- NASA Near Earth Object Web Service is a RESTful web service for near earth Asteroid information. See [here](https://api.nasa.gov/) 
+- I have used this API to get the list of Asteroids having their closest approach date to Earth for the user-selected date.
+- Since I have made this webapp for demo/learning purpose, I did not generate an API key, instead I used the available DEMO_KEY which also have a decent limitation; more than required for demo/learning purpose.
+- DEMO_KEY has hourly limit of 30 request per IP address & daily limit of 50 requests per IP address. (at the time of writing this)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Functionalities included in project:
 
-### `npm run build`
+1. By default, NEOs list will be fetched for present date.
+2. User can also select new date to list of NEOs for that date, along with many useful information.
+3. User can click on each NEO card to see more detailed information about each asteroid.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Tools and technologies :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js - JavaScript library for building UI
+- HTML - for building structure of web pages
+- CSS - for styling web pages
+- bootstrap - powerful front-end framework for developing responsive, mobile-first projects on web
+- react-bootstrap - Bootstrap components built in React
+- redux - predictable state container for JavaScript apps
+- react-redux - React bindings for redux
+- redux-saga - library to make side-effects (async fetching,etc) easier in redux app
+- react-loader-advanced - React Loader component for displaying loading indications
+- axios - promise-based HTTP client for JS
+- gh-pages - npm development dependency for hosting app on Github Pages
+- GitHub Pages Hosting - for deployment of React.js app
+- Sublime Text Editor - for writing code
+- Git - for version control
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Demo live site
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project is live at [site](https://bit.ly/neotracker_live)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
